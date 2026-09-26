@@ -44,19 +44,20 @@ cp .env.example .env.local
 npm run dev
 ```
 
+
 ## 📁 Project Structure
 
+```
 ├── app/
-│ ├── (auth)/ # Login, Signup, Forgot Password
-│ ├── (dashboard)/ # Protected dashboard pages
-│ ├── (admin)/ # Admin only pages
-│ └── api/ # API routes & Stripe webhooks
+│   ├── (auth)/        # Login, Signup, Forgot Password
+│   ├── (dashboard)/   # Protected dashboard pages
+│   ├── (admin)/       # Admin only pages
+│   └── api/           # API routes & Stripe webhooks
 ├── components/
-│ └── dashboard/ # Dashboard components
+│   └── dashboard/     # Dashboard components
 └── lib/
-├── supabase/ # Supabase clients
-└── stripe/ # Stripe integration
-
+    ├── supabase/      # Supabase clients
+    └── stripe/        # Stripe integration
 
 ## 🔑 Environment Variables
 ```bash
