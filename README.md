@@ -3,7 +3,7 @@
 A production-ready SaaS starter template built with Next.js, Supabase, and Stripe.
 
 ## 🚀 Live Demo
-[View Live](https://your-vercel-url.vercel.app)
+[View Live](https://my-saas-five-iota.vercel.app)
 
 ## ✨ Features
 - 🔐 Authentication (Email + Google OAuth)
